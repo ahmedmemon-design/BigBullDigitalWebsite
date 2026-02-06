@@ -46,12 +46,13 @@ export default function Home() {
         fadeOutColor="#FB2C29"
         ariaLabel="Technology partners"
       />
+     </div>
+      
             <Services />
       <Stats />
       <Testimonials />
       <FeaturedProjects />
       <Contact />
-     </div>
     </main>
   );
 }
