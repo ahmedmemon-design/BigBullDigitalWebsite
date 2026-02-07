@@ -99,7 +99,7 @@ const SimpleContactPage = () => {
               <div className="bg-white/5 border border-white/10 rounded-xl overflow-hidden h-96">
                 {/* Embedded Google Map */}
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.664610974757!2d77.06695731507973!3d28.408997582498867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d22785b2c0c9f%3A0x4b9c9f4b8c8c8c8c!2sGurgaon%2C%20Haryana!5e0!3m2!1sen!2sin!4v1641234567890!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.3344698354827!2d67.03808577607388!3d24.818232946944825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ddcf3e73a63%3A0x45eed6a990af0a76!2sBig%20Bull%20Digital%20PVT%20LTD!5e0!3m2!1sen!2s!4v1770455452612!5m2!1sen!2s"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -112,10 +112,9 @@ const SimpleContactPage = () => {
 
               {/* Map Address */}
               <div className="mt-6 p-4 bg-white/5 rounded-lg border border-white/10">
-                <h3 className="font-bold mb-2">Big Build Digital Pvt Ltd</h3>
-                <p className="text-gray-400 text-sm">100, Block B, Phase II, Sector 12, Gurgaon</p>
-                <p className="text-gray-400 text-sm">101001 Delhi, India</p>
-                <p className="text-red-400 text-sm mt-2">www.bigbuilddigital.com</p>
+                <h3 className="font-bold mb-2">Big Bull Digital Pvt Ltd</h3>
+                <p className="text-gray-400 text-sm">Plot# 1C, Lane 7, Zamzam Commercial, Phase V, DHA, Karachi, Pakistan</p>
+                <p className="text-red-400 text-sm mt-2">www.bigbulldigital.com</p>
               </div>
             </div>
 
@@ -236,7 +235,7 @@ const SimpleContactPage = () => {
               {[
                 'Construction', 'Healthcare', 'Education', 'Real Estate',
                 'Banking', 'Insurance', 'Hospitality', 'Retail',
-                'Transport', 'Technology', 'Manufacturing', 'Entertainment'
+                'Transport', 'Technology', 'Manufacturing', 'Entertainment', "Automotive"
               ].map((industry, index) => (
                 <div
                   key={index}
