@@ -7,17 +7,16 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { Icon: Facebook, href: "#" },
-    { Icon: Instagram, href: "#" },
-    { Icon: Twitter, href: "#" },
-    { Icon: Linkedin, href: "#" },
+    { Icon: Facebook, href: "https://www.facebook.com/bigbulldigitalofficial/" },
+    { Icon: Instagram, href: "https://www.instagram.com/bigbulldigital/" },
+    { Icon: Linkedin, href: "https://www.linkedin.com/company/big-bull-digital/" },
   ];
 
   const quickLinks = [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
     { name: "Our Services", href: "/services" },
-    { name: "Portfolio", href: "/work" },
+    { name: "Contact Us", href: "/contact" },
   ];
 
   return (
@@ -75,8 +74,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-brand-red shrink-0" />
                 <span className="leading-relaxed">
-                  123 Bull Street, Tech Avenue,<br /> Digital City, DC 4567
-                </span>
+Plot# 1C, Lane 7, Zamzam Commercial, Phase V, DHA, Karachi, Pakistan                </span>
               </li>
             </ul>
           </div>
@@ -89,6 +87,7 @@ export default function Footer() {
                 <Link 
                   key={index} 
                   href={href}
+                  target="_blank"
                   className="relative p-3 bg-white/5 border border-white/10 rounded-full text-white overflow-hidden group transition-all duration-500"
                 >
                   {/* The Background Slide-up Effect */}
@@ -105,10 +104,6 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-6 text-[10px] font-bold text-zinc-500 uppercase tracking-[0.2em]">
           <p>© {currentYear} BIG BULL DIGITAL. ALL RIGHTS RESERVED.</p>
-          <div className="flex gap-8">
-            <Link href="/privacy" className="hover:text-brand-red transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-brand-red transition-colors">Terms & Conditions</Link>
-          </div>
         </div>
         
       </div>
