@@ -35,7 +35,7 @@ const ServicesGrid = () => {
       id: 4,
       title: "Google PPC Management",
       description: "Maximize ROI with expertly managed pay-per-click advertising campaigns on Google Ads platform.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+      image: "https://images.unsplash.com/photo-1501250987900-211872d97eaa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R29vZ2xlJTIwUFBDJTIwTWFuYWdlbWVudHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       id: 5,
