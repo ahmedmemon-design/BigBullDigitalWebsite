@@ -172,12 +172,6 @@ const Hero = () => {
             variant="red"
             className="px-8 py-3"
           />
-          <BullButton
-            href="/portfolio"
-            title="View Portfolio"
-            variant="transparent"
-            className="px-8 py-3"
-          />
         </div>
       </div>
 
@@ -223,5 +217,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;
